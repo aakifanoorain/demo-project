@@ -27,6 +27,9 @@ ul img {
 ul li a {
     text-decoration: none;
     color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 23px;
+   
 }
 
 .head img {
@@ -41,7 +44,7 @@ ul li a {
 
 .pics img {
     width: 100%;
-    height: 240px;
+    height: 360px;
     display: flex;
     margin-top: 35px;
 
@@ -54,6 +57,13 @@ ul li a {
     bottom: 20px;
     
 }
+.pics h3{
+    text-align: center;
+    font-size: 22px;
+    position: relative;
+    bottom: 20px;
+    color: deeppink;
+}
 
 .second h1 {
     align-items: center;
@@ -61,6 +71,7 @@ ul li a {
     margin-top: 30px;
     font-size: 35px;
     color: rgb(34, 33, 33);
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .secondbannar img {
@@ -96,53 +107,16 @@ ul li a {
 h2 {
     font-size: 28px;
     padding: 18px 0;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
 }
 p {
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 500;
-}
-.footer-column {
-    flex: 1;
-    margin-right: 20px;
-}
-.footer-nav {
-    display: flex;
-    margin-bottom: 20px;
-}
-.footer-column li{
-    list-style: none;
-}
-.footer-column ul li a {
-    color: #333;
-    text-decoration: none;
-    font-size: 20px;
-}
-.footer-column h4 {
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-style: italic;
+    text-align: center;
 }
 
-
-.footer-column {
-    flex: 1;
-    margin-right: 20px;
-}
-.footer-nav {
-    display: flex;
-    margin-bottom: 20px;
-}
-.footer-column li{
-    list-style: none;
-}
-.footer-column ul li a {
-    color: #333;
-    text-decoration: none;
-    font-size: 20px;
-}
-.footer-column h4 {
-    font-size: 30px;
-    margin-bottom: 10px;
-}
 
 
 .footer-column {
@@ -166,4 +140,5 @@ p {
 .footer-column h4 {
     font-size: 30px;
     margin-bottom: 10px;
+    font-family: "Bebas Neue", sans-serif;
 }
